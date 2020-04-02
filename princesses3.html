@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Princesses - before and after</title>
+    <link href="styles.css" rel="stylesheet">
+    <!-- JavaScript HTML requirements -->
+    <script src="image_swap_library.js"></script>
+    <script src="image_swap.js"></script>
+</head>
+
+<body>
+
+    <a href="princesses1.html">Slide Show</a>
+    <a href="princesses2.html">Image Rollover</a>
+    <a href="princesses3.html">Image Swap</a>
+
+    <section>
+        <h1>Current Best Sellers</h1><br>
+        <!--
+            JavaScript HTML requirements:
+
+            A list that has the image reference for each photo in the a element,
+            the thumbnail reference in the img element within the a element,
+            and the caption in the title for each list item.
+
+            A span element that will display the caption for each photo. This  element
+            can be within a paragraph, an a heading element, or any other block element.
+
+            An image element that will display the photo that corresponds to the thumbnail.
+
+            The ids for the list, span, and img elements should be
+            image_list, caption, and image.
+        -->
+        <ul id="image_list">
+            <li><a href="images/pr_belle.jpg" title="Belle - Before"><img src="images/pr_belle.jpg" alt="Belle"></a></li>
+            <li><a href="images/pr_jasmine.jpg" title="Jasmine - Before"><img src="images/pr_jasmine.jpg" alt="Jasmine"></a></li>
+            <li><a href="images/pr_littlemer.jpg" title="Little Mermaid - Before"><img src="images/pr_littlemer.jpg" alt="Little Mermaid"></a></li>
+            <li><a href="images/pr_cinder.jpg" title="Cinderella - Before"><img src="images/pr_cinder.jpg" alt="Cinderella"></a></li>
+            <li><a href="images/pr_snow.jpg" title="Snow White - Before"><img src="images/pr_snow.jpg" alt="Snow White"></a></li>
+        </ul>
+
+        <h2><span id="caption">Belle - Before</span></h2>
+        <p><img src="images/pr_belle.jpg" alt="Belle" id="image" /></p>
+    </section>
+
+
+    <footer></footer>
+</body>
+</html>

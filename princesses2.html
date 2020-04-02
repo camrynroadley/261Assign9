@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Princesses - before and after</title>
+    <link href="styles.css" rel="stylesheet">
+    <!-- JavaScript HTML requirements -->
+    <script type="text/javascript" src="rollover_library.js"></script>
+    <script type="text/javascript">
+        var $ = function (id) { return document.getElementById(id); }
+        var rollover;
+        window.onload = function () {
+            rollover1 = new Rollover("image1", "images/xbelle.jpg")
+            rollover2 = new Rollover("image2", "images/xjasmine.jpg")
+            rollover3 = new Rollover("image3", "images/xlittlemermaid.jpg")
+            rollover4 = new Rollover("image4", "images/xcinderella.jpg")
+            rollover5 = new Rollover("image5", "images/xsnowwhite.jpg")
+        }
+    </script>
+</head>
+
+<body>
+
+    <a href="princesses1.html">Slide Show</a>
+    <a href="princesses2.html">Image Rollover</a>
+    <a href="princesses3.html">Image Swap</a>
+
+    <section>
+        <h1>Disney Princesses</h1><br>
+        <ul>
+            <li><img src="images/pr_belle.jpg" alt="" id="image1"></li>
+            <li><img src="images/pr_jasmine.jpg" alt="" id="image2"></li>
+            <li><img src="images/pr_littlemer.jpg" alt="" id="image3"></li>
+            <li><img src="images/pr_cinder.jpg" alt="" id="image4"></li>
+            <li><img src="images/pr_snow.jpg" alt="" id="image5"></li>
+        </ul>
+        <h2>Hover the mouse over to see the princesses after</h2>
+    </section>
+
+    <footer></footer>
+</body>
+</html>
